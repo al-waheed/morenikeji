@@ -1,0 +1,19 @@
+{
+  "name": "morenikeji",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/al-waheed/morenikeji.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/al-waheed/morenikeji/issues"
+  },
+  "homepage": "https://github.com/al-waheed/morenikeji#readme"
+}
