@@ -431,12 +431,15 @@ a {
 
 #projects .project-info h1 {
   font-size: 4rem;
+  font-family: 'Courier New';
   font-weight: 500;
   text-transform: uppercase;
 }
 
 #projects .project-info h2 {
   font-size: 2rem;
+  font-style: italic;
+  margin-bottom: 5px;
   font-weight: 500;
   margin-top: 10px;
 }
@@ -593,7 +596,7 @@ a {
 }
 
 #footer .footer {
-  min-height: 100px;
+  min-height: 50px;
   flex-direction: column;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -670,6 +673,10 @@ a {
     flex-basis: 45%;
     margin: 2.5%;
   }
+  #services .service-item {
+    height: 28rem;
+  }
+
 
   /* service end*/
 
@@ -735,7 +742,7 @@ a {
   /* contact */
   #contact .contact {
     flex-direction: column;
-    padding: 100px 0;
+    padding: 0 0 100px 0;
     align-items: center;
     justify-content: center;
     min-width: 20vh;
@@ -746,7 +753,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 0;
+    margin-top: 20px;
   }
 
   #contact .contact-item {
@@ -814,6 +821,10 @@ a {
   #services .service-bottom .service-item {
     flex-basis: 22%;
     margin: 1.5%;
+  }
+
+  #services .service-item {
+    height: 35rem;
   }
 
   #about .col-right p {
