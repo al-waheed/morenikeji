@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap);
 * {
   padding: 0;
   margin: 0;
@@ -355,6 +355,11 @@ a {
   position: relative;
   z-index: 1;
   overflow: hidden;
+  transition: transform 0.2s ease-in;
+}
+
+#services .service-item:hover {
+  transform: translateY(-20px);
 }
 
 #services .service-item::after {
@@ -565,9 +570,11 @@ a {
   flex-direction: column;
   box-shadow: 0px 0px 18px 0 #0000002c;
   transition: 0.3s ease box-shadow;
+  transition: transform 0.2s ease-in;
 }
 #contact .contact-item:hover {
   box-shadow: 0px 0px 5px 0 #0000002c;
+  transform: translateY(-20px);
 }
 
 #contact .icon {
